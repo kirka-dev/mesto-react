@@ -1,0 +1,25 @@
+.element__like {
+  font-size: 13px;
+  line-height: 15px;
+  width: 20.76px;
+  height: 18.13px;
+  margin-left: auto;
+
+  cursor: pointer;
+  transition: .5s opacity;
+
+  border: none;
+  outline: none;
+  background-color: initial;
+  background-image: url('../../../images/ico-like.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  padding-top: 20px;
+}
+
+.element__like:hover {
+  transition: .5s opacity;
+
+  opacity: .6;
+}

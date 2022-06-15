@@ -1,0 +1,30 @@
+.profile-info__name {
+  font-size: 42px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 56px;
+
+  overflow: hidden;
+
+  max-width: 300px;
+  margin: 0 25px 0 0;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  color: #fff;
+
+  align-self: end;
+}
+
+@media (max-width: 767px) {
+  .profile-info__name {
+    font-size: 27px;
+    line-height: 40px;
+
+    max-width: 300px;
+    margin-right: 10px;
+
+    grid-row: 2;
+  }
+}

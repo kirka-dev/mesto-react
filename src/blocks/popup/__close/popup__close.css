@@ -1,0 +1,36 @@
+.popup__close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+  transition: .5s opacity;
+
+  border: none;
+  outline: none;
+  background-color: initial;
+  background-image: url('../../../images/ico-close.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.popup__close:hover {
+  transition: .5s opacity;
+
+  opacity: .6;
+}
+
+@media (max-width: 767px) {
+  .popup__close {
+    top: -45px;
+    right: 5px;
+
+    width: 26px;
+    height: 26px;
+
+    background-size: 140%;
+  }
+}

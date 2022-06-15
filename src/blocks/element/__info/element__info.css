@@ -1,0 +1,10 @@
+.element__info {
+  display: flex;
+
+  padding: 26px 22px 25px 23px;
+
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+
+  align-items: center;
+}
